@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "47998381-0120-4139-876F-A7E7DC069AD0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14ED8DFC-42EE-4220-85F7-8310119A6A07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DooKit/DooKit/InPurchase/DKIAPInPurchaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "dk_addListen()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "14ED8DFC-42EE-4220-85F7-8310119A6A07 - e8be3324b922d559"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;SwiftyStoreKit.Purchase&gt;) -&gt; () in DooKit.DKIAPInPurchaseManager.dk_addListen() -&gt; ()"
+                  moduleName = "DooKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alibaba/Desktop/CompanyProject/DooKit/DooKit/DooKit/InPurchase/DKIAPInPurchaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "14ED8DFC-42EE-4220-85F7-8310119A6A07 - bb3d7c8b3abd48e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftyStoreKit.Purchase) -&gt; () in closure #1 (Swift.Array&lt;SwiftyStoreKit.Purchase&gt;) -&gt; () in DooKit.DKIAPInPurchaseManager.dk_addListen() -&gt; ()"
+                  moduleName = "DooKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alibaba/Desktop/CompanyProject/DooKit/DooKit/DooKit/InPurchase/DKIAPInPurchaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F0AE77A-7744-4143-AEC1-94CF42497F30"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DooKit/DooKit/IAP/AHIAPManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "ah_buySubscription(_:_:_:_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EB48F05-9E03-4991-8FEE-CB3727B33E37"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DooKit/DooKit/IAP/AHIAPManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "ah_addListnerCallback()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3EB48F05-9E03-4991-8FEE-CB3727B33E37 - ed837c8e6bfd1035"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DooKit.AHIAPManager.ah_addListnerCallback() -&gt; ()"
+                  moduleName = "DooKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alibaba/Desktop/CompanyProject/DooKit/DooKit/DooKit/IAP/AHIAPManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "230"
+                  endingLineNumber = "230"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "3EB48F05-9E03-4991-8FEE-CB3727B33E37 - c75db97b21775a53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;SwiftyStoreKit.Purchase&gt;) -&gt; () in DooKit.AHIAPManager.ah_addListnerCallback() -&gt; ()"
+                  moduleName = "DooKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alibaba/Desktop/CompanyProject/DooKit/DooKit/DooKit/IAP/AHIAPManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "230"
+                  endingLineNumber = "230"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E2895F8-B099-40C5-B2B0-4220D628451C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DooKit/DooKit/Assistant/AssistantManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "att_eventCostIncome(pay_ment:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1E1F583-7DE8-45A0-B24F-52884A8600A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DooKit/DooKit/Assistant/AssistantManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "att_eventCostIncome(pay_ment:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

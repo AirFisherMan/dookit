@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3C4EEC62C5738EF00C449B9 /* AHIAPManagerSaveRecipet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EEC52C5738EF00C449B9 /* AHIAPManagerSaveRecipet.swift */; };
+		C3CB0C112C50E88E005F216D /* DKAppleReceiptValidatorX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB0C102C50E88E005F216D /* DKAppleReceiptValidatorX.swift */; };
+		C3CB0C132C50F552005F216D /* DKIAPKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB0C122C50F552005F216D /* DKIAPKeychain.swift */; };
+		C3CCA30B2C51FD28000D9D7B /* AHIAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCA30A2C51FD28000D9D7B /* AHIAPManager.swift */; };
+		C3CCA30D2C521EB3000D9D7B /* AHIAPManagerReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCA30C2C521EB3000D9D7B /* AHIAPManagerReceiptValidator.swift */; };
+		C3CCA3152C523EE0000D9D7B /* AHIAPManagerKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCA3142C523EE0000D9D7B /* AHIAPManagerKeyChain.swift */; };
+		C3D981E12C53364C00B73621 /* AssistantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D981E02C53364C00B73621 /* AssistantManager.swift */; };
+		C3D981E52C53867400B73621 /* AssistantManager+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D981E42C53867400B73621 /* AssistantManager+String.swift */; };
+		C3D981E72C53868C00B73621 /* AssistantManager+Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D981E62C53868C00B73621 /* AssistantManager+Device.swift */; };
 		C3EA84F02C4FA493009C55C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA84EF2C4FA493009C55C0 /* AppDelegate.swift */; };
 		C3EA84F22C4FA493009C55C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA84F12C4FA493009C55C0 /* SceneDelegate.swift */; };
 		C3EA84F42C4FA493009C55C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA84F32C4FA493009C55C0 /* ViewController.swift */; };
@@ -16,6 +25,10 @@
 		C3EA85072C4FA495009C55C0 /* DooKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA85062C4FA495009C55C0 /* DooKitTests.swift */; };
 		C3EA85112C4FA495009C55C0 /* DooKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA85102C4FA495009C55C0 /* DooKitUITests.swift */; };
 		C3EA85132C4FA495009C55C0 /* DooKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA85122C4FA495009C55C0 /* DooKitUITestsLaunchTests.swift */; };
+		C3EA85212C4FA4E9009C55C0 /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3EA85202C4FA4E9009C55C0 /* SwiftyStoreKit */; };
+		C3EA85252C4FA552009C55C0 /* DKIAPEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA85242C4FA552009C55C0 /* DKIAPEnum.swift */; };
+		C3EA85272C4FA769009C55C0 /* DKIAPProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA85262C4FA769009C55C0 /* DKIAPProductModel.swift */; };
+		C3EA85292C4FAD1A009C55C0 /* DKIAPInPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA85282C4FAD1A009C55C0 /* DKIAPInPurchaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3C4EEC52C5738EF00C449B9 /* AHIAPManagerSaveRecipet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHIAPManagerSaveRecipet.swift; sourceTree = "<group>"; };
+		C3CB0C102C50E88E005F216D /* DKAppleReceiptValidatorX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKAppleReceiptValidatorX.swift; sourceTree = "<group>"; };
+		C3CB0C122C50F552005F216D /* DKIAPKeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKIAPKeychain.swift; sourceTree = "<group>"; };
+		C3CCA30A2C51FD28000D9D7B /* AHIAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHIAPManager.swift; sourceTree = "<group>"; };
+		C3CCA30C2C521EB3000D9D7B /* AHIAPManagerReceiptValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHIAPManagerReceiptValidator.swift; sourceTree = "<group>"; };
+		C3CCA3142C523EE0000D9D7B /* AHIAPManagerKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHIAPManagerKeyChain.swift; sourceTree = "<group>"; };
+		C3D981E02C53364C00B73621 /* AssistantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantManager.swift; sourceTree = "<group>"; };
+		C3D981E42C53867400B73621 /* AssistantManager+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AssistantManager+String.swift"; sourceTree = "<group>"; };
+		C3D981E62C53868C00B73621 /* AssistantManager+Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AssistantManager+Device.swift"; sourceTree = "<group>"; };
 		C3EA84EC2C4FA493009C55C0 /* DooKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DooKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EA84EF2C4FA493009C55C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3EA84F12C4FA493009C55C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +71,9 @@
 		C3EA850C2C4FA495009C55C0 /* DooKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DooKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EA85102C4FA495009C55C0 /* DooKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DooKitUITests.swift; sourceTree = "<group>"; };
 		C3EA85122C4FA495009C55C0 /* DooKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DooKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3EA85242C4FA552009C55C0 /* DKIAPEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKIAPEnum.swift; sourceTree = "<group>"; };
+		C3EA85262C4FA769009C55C0 /* DKIAPProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKIAPProductModel.swift; sourceTree = "<group>"; };
+		C3EA85282C4FAD1A009C55C0 /* DKIAPInPurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKIAPInPurchaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3EA85212C4FA4E9009C55C0 /* SwiftyStoreKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +102,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3CCA3162C5242F6000D9D7B /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCA30A2C51FD28000D9D7B /* AHIAPManager.swift */,
+				C3CCA30C2C521EB3000D9D7B /* AHIAPManagerReceiptValidator.swift */,
+				C3CCA3142C523EE0000D9D7B /* AHIAPManagerKeyChain.swift */,
+				C3C4EEC52C5738EF00C449B9 /* AHIAPManagerSaveRecipet.swift */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
+		C3CCA3172C524316000D9D7B /* Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				C3D981E02C53364C00B73621 /* AssistantManager.swift */,
+				C3D981E42C53867400B73621 /* AssistantManager+String.swift */,
+				C3D981E62C53868C00B73621 /* AssistantManager+Device.swift */,
+			);
+			path = Assistant;
+			sourceTree = "<group>";
+		};
 		C3EA84E32C4FA493009C55C0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +146,8 @@
 		C3EA84EE2C4FA493009C55C0 /* DooKit */ = {
 			isa = PBXGroup;
 			children = (
+				C3EA85232C4FA500009C55C0 /* InPurchase */,
+				C3EA85222C4FA4F4009C55C0 /* DooKit */,
 				C3EA84EF2C4FA493009C55C0 /* AppDelegate.swift */,
 				C3EA84F12C4FA493009C55C0 /* SceneDelegate.swift */,
 				C3EA84F32C4FA493009C55C0 /* ViewController.swift */,
@@ -127,6 +176,27 @@
 			path = DooKitUITests;
 			sourceTree = "<group>";
 		};
+		C3EA85222C4FA4F4009C55C0 /* DooKit */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCA3172C524316000D9D7B /* Assistant */,
+				C3CCA3162C5242F6000D9D7B /* IAP */,
+			);
+			path = DooKit;
+			sourceTree = "<group>";
+		};
+		C3EA85232C4FA500009C55C0 /* InPurchase */ = {
+			isa = PBXGroup;
+			children = (
+				C3EA85242C4FA552009C55C0 /* DKIAPEnum.swift */,
+				C3EA85262C4FA769009C55C0 /* DKIAPProductModel.swift */,
+				C3EA85282C4FAD1A009C55C0 /* DKIAPInPurchaseManager.swift */,
+				C3CB0C102C50E88E005F216D /* DKAppleReceiptValidatorX.swift */,
+				C3CB0C122C50F552005F216D /* DKIAPKeychain.swift */,
+			);
+			path = InPurchase;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +213,9 @@
 			dependencies = (
 			);
 			name = DooKit;
+			packageProductDependencies = (
+				C3EA85202C4FA4E9009C55C0 /* SwiftyStoreKit */,
+			);
 			productName = DooKit;
 			productReference = C3EA84EC2C4FA493009C55C0 /* DooKit.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +288,9 @@
 				Base,
 			);
 			mainGroup = C3EA84E32C4FA493009C55C0;
+			packageReferences = (
+				C3EA851F2C4FA4E9009C55C0 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */,
+			);
 			productRefGroup = C3EA84ED2C4FA493009C55C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +334,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CCA30B2C51FD28000D9D7B /* AHIAPManager.swift in Sources */,
+				C3D981E52C53867400B73621 /* AssistantManager+String.swift in Sources */,
+				C3EA85252C4FA552009C55C0 /* DKIAPEnum.swift in Sources */,
+				C3D981E12C53364C00B73621 /* AssistantManager.swift in Sources */,
+				C3CCA30D2C521EB3000D9D7B /* AHIAPManagerReceiptValidator.swift in Sources */,
+				C3CCA3152C523EE0000D9D7B /* AHIAPManagerKeyChain.swift in Sources */,
+				C3D981E72C53868C00B73621 /* AssistantManager+Device.swift in Sources */,
 				C3EA84F42C4FA493009C55C0 /* ViewController.swift in Sources */,
 				C3EA84F02C4FA493009C55C0 /* AppDelegate.swift in Sources */,
+				C3C4EEC62C5738EF00C449B9 /* AHIAPManagerSaveRecipet.swift in Sources */,
+				C3CB0C132C50F552005F216D /* DKIAPKeychain.swift in Sources */,
+				C3EA85272C4FA769009C55C0 /* DKIAPProductModel.swift in Sources */,
 				C3EA84F22C4FA493009C55C0 /* SceneDelegate.swift in Sources */,
+				C3CB0C112C50E88E005F216D /* DKAppleReceiptValidatorX.swift in Sources */,
+				C3EA85292C4FAD1A009C55C0 /* DKIAPInPurchaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +689,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3EA851F2C4FA4E9009C55C0 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bizz84/SwiftyStoreKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.16.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3EA85202C4FA4E9009C55C0 /* SwiftyStoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3EA851F2C4FA4E9009C55C0 /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */;
+			productName = SwiftyStoreKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3EA84E42C4FA493009C55C0 /* Project object */;
 }
