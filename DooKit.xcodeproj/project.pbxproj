@@ -10,6 +10,9 @@
 		C3C4EEC62C5738EF00C449B9 /* AHIAPManagerSaveRecipet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C4EEC52C5738EF00C449B9 /* AHIAPManagerSaveRecipet.swift */; };
 		C3CB0C112C50E88E005F216D /* DKAppleReceiptValidatorX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB0C102C50E88E005F216D /* DKAppleReceiptValidatorX.swift */; };
 		C3CB0C132C50F552005F216D /* DKIAPKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB0C122C50F552005F216D /* DKIAPKeychain.swift */; };
+		C3CBA1EA2C58B259005B8AFD /* ACCropTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBA1E92C58B259005B8AFD /* ACCropTool.swift */; };
+		C3CBA1EC2C58B272005B8AFD /* ACAudioRecorderTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBA1EB2C58B272005B8AFD /* ACAudioRecorderTool.swift */; };
+		C3CBA1EE2C58C90B005B8AFD /* ACAudioRecorderToolDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBA1ED2C58C90B005B8AFD /* ACAudioRecorderToolDelegate.swift */; };
 		C3CCA30B2C51FD28000D9D7B /* AHIAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCA30A2C51FD28000D9D7B /* AHIAPManager.swift */; };
 		C3CCA30D2C521EB3000D9D7B /* AHIAPManagerReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCA30C2C521EB3000D9D7B /* AHIAPManagerReceiptValidator.swift */; };
 		C3CCA3152C523EE0000D9D7B /* AHIAPManagerKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCA3142C523EE0000D9D7B /* AHIAPManagerKeyChain.swift */; };
@@ -52,6 +55,9 @@
 		C3C4EEC52C5738EF00C449B9 /* AHIAPManagerSaveRecipet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHIAPManagerSaveRecipet.swift; sourceTree = "<group>"; };
 		C3CB0C102C50E88E005F216D /* DKAppleReceiptValidatorX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKAppleReceiptValidatorX.swift; sourceTree = "<group>"; };
 		C3CB0C122C50F552005F216D /* DKIAPKeychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKIAPKeychain.swift; sourceTree = "<group>"; };
+		C3CBA1E92C58B259005B8AFD /* ACCropTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACCropTool.swift; sourceTree = "<group>"; };
+		C3CBA1EB2C58B272005B8AFD /* ACAudioRecorderTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAudioRecorderTool.swift; sourceTree = "<group>"; };
+		C3CBA1ED2C58C90B005B8AFD /* ACAudioRecorderToolDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACAudioRecorderToolDelegate.swift; sourceTree = "<group>"; };
 		C3CCA30A2C51FD28000D9D7B /* AHIAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHIAPManager.swift; sourceTree = "<group>"; };
 		C3CCA30C2C521EB3000D9D7B /* AHIAPManagerReceiptValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHIAPManagerReceiptValidator.swift; sourceTree = "<group>"; };
 		C3CCA3142C523EE0000D9D7B /* AHIAPManagerKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHIAPManagerKeyChain.swift; sourceTree = "<group>"; };
@@ -102,6 +108,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C3CBA1E62C58B0B9005B8AFD /* AudioCrop */ = {
+			isa = PBXGroup;
+			children = (
+				C3CBA1E92C58B259005B8AFD /* ACCropTool.swift */,
+				C3CBA1EB2C58B272005B8AFD /* ACAudioRecorderTool.swift */,
+				C3CBA1ED2C58C90B005B8AFD /* ACAudioRecorderToolDelegate.swift */,
+			);
+			path = AudioCrop;
+			sourceTree = "<group>";
+		};
 		C3CCA3162C5242F6000D9D7B /* IAP */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +195,7 @@
 		C3EA85222C4FA4F4009C55C0 /* DooKit */ = {
 			isa = PBXGroup;
 			children = (
+				C3CBA1E62C58B0B9005B8AFD /* AudioCrop */,
 				C3CCA3172C524316000D9D7B /* Assistant */,
 				C3CCA3162C5242F6000D9D7B /* IAP */,
 			);
@@ -335,6 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3CCA30B2C51FD28000D9D7B /* AHIAPManager.swift in Sources */,
+				C3CBA1EA2C58B259005B8AFD /* ACCropTool.swift in Sources */,
+				C3CBA1EC2C58B272005B8AFD /* ACAudioRecorderTool.swift in Sources */,
 				C3D981E52C53867400B73621 /* AssistantManager+String.swift in Sources */,
 				C3EA85252C4FA552009C55C0 /* DKIAPEnum.swift in Sources */,
 				C3D981E12C53364C00B73621 /* AssistantManager.swift in Sources */,
@@ -343,6 +362,7 @@
 				C3D981E72C53868C00B73621 /* AssistantManager+Device.swift in Sources */,
 				C3EA84F42C4FA493009C55C0 /* ViewController.swift in Sources */,
 				C3EA84F02C4FA493009C55C0 /* AppDelegate.swift in Sources */,
+				C3CBA1EE2C58C90B005B8AFD /* ACAudioRecorderToolDelegate.swift in Sources */,
 				C3C4EEC62C5738EF00C449B9 /* AHIAPManagerSaveRecipet.swift in Sources */,
 				C3CB0C132C50F552005F216D /* DKIAPKeychain.swift in Sources */,
 				C3EA85272C4FA769009C55C0 /* DKIAPProductModel.swift in Sources */,
